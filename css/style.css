@@ -1,0 +1,97 @@
+/* header */
+.header-bg{
+    
+
+}
+.header-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1184px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: aqua;
+    padding: 32px 0;
+}
+.burger{
+    display: none;
+    width: 40px;
+    height: 40px;
+    padding-top: 4px;
+    border-radius: 40%;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(93, 80, 198, 1);
+    text-align: center;
+}
+.logo-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+}
+.logo-div p{
+    font-size: 24px;
+    font-weight: 900;
+}
+.nav-ul{
+    display: flex;
+    align-items: center;
+    column-gap: 64px;
+    font-size: 14px;
+}
+.nav-ul :first-child{
+    font-weight: 900;
+}
+.sign-up{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.sign-up p{
+    font-weight: 700;
+}
+.sign{
+    width: 115px;
+    height: 48px;
+    border-radius: 100px;
+    background-color: rgba(93, 80, 198, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+@media(max-width:1024px){
+    nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .burger2{
+        display: none;
+    }
+}
+@media(max-width:375px){
+    .sign-up{
+        display: none;
+    }
+    .burger{
+        display: none;
+    }
+    .burger2{
+        display: block;
+    }
+}
+
+
+ /* section2 */
+.div1{
+    width: 1184px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
